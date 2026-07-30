@@ -1,0 +1,19 @@
+.container-pai {
+    display: flex;
+    flex-wrap: nowrap; /* Mantém todos os itens na mesma linha */
+    justify-content: space-around; /* Distribui o espaço entre os itens */
+    background-color: #1e75ff; /* Cor azul do fundo da imagem */
+    padding: 10px;
+    border: 2px solid #1e75ff;
+  }
+  
+  .item-filho {
+    background-color: #f1f1f1; /* Cor clara do fundo dos números */
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    flex: 1; /* Faz os itens encolherem ou crescerem igualmente */
+    min-width: 30px; /* Garante que os números permaneçam visíveis */
+  }
