@@ -1,0 +1,19 @@
+/* Estilo do container pai */
+.container {
+    display: flex;            /* Ativa o Flexbox */
+    flex-direction: row;      /* Alinha os itens em linha (esquerda para a direita) */
+    background-color: #1e6fff; /* Cor de fundo azul igual à imagem */
+    padding: 15px;            /* Espaçamento interno do container */
+    gap: 15px;                /* Cria o espaçamento entre os blocos brancos */
+    width: 100%;              /* Ocupa a largura total disponível */
+}
+
+/* Estilo dos blocos filhos */
+.item {
+    background-color: #f1f1f1; /* Cor de fundo cinza claro/branco */
+    color: #333;               /* Cor do texto do número */
+    font-family: sans-serif;   /* Fonte limpa para o número */
+    font-size: 24px;           /* Tamanho do texto */
+    padding: 15px 40px;        /* Espaçamento interno para dar formato ao bloco */
+    border: 1px solid #ccc;    /* Borda fina opcional para destacar os blocos */
+}

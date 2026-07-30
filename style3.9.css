@@ -1,0 +1,18 @@
+/* Estilização do Container Pai */
+.container-pai {
+    display: flex;                  /* Ativa o Flexbox */
+    flex-direction: row-reverse;    /* Alinha os itens horizontalmente da direita para a esquerda */
+    background-color: #2575fc;     /* Cor de fundo azul igual à imagem */
+    padding: 15px;                  /* Espaçamento interno */
+    gap: 15px;                      /* Espaço entre os itens filhos */
+}
+
+/* Estilização dos Itens Filhos */
+.item-filho {
+    background-color: #f0f0f0;      /* Cor de fundo clara dos blocos */
+    color: #000;                    /* Cor do texto preta */
+    font-size: 24px;                /* Tamanho do texto */
+    font-weight: bold;              /* Texto em negrito */
+    padding: 15px 40px;             /* Espaçamento interno (altura e largura) */
+    text-align: center;             /* Centraliza o texto horizontalmente */
+}

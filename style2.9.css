@@ -1,0 +1,23 @@
+/* Estilização do Container Pai */
+.container-pai {
+    display: flex;                  /* Ativa o Flexbox */
+    flex-direction: column;         /* Alinha os itens em coluna (vertical) */
+    gap: 10px;                      /* Espaçamento entre os itens */
+    background-color: #1e74ff;      /* Cor de fundo azul da imagem */
+    padding: 15px;                  /* Espaçamento interno */
+    width: 100%;                    /* Largura total do container */
+    max-width: 600px;               /* Limite de largura do container */
+}
+
+/* Estilização dos Itens Filhos */
+.item-filho {
+    background-color: #f1f1f1;      /* Cor de fundo clara */
+    color: #333;                    /* Cor do texto (número) */
+    width: 80px;                    /* Largura de cada item */
+    height: 50px;                   /* Altura de cada item */
+    display: flex;                  /* Flexbox interno para centralizar o texto */
+    justify-content: center;        /* Centraliza horizontalmente */
+    align-items: center;            /* Centraliza verticalmente */
+    font-size: 24px;                /* Tamanho da fonte */
+    font-family: sans-serif;        /* Tipo de fonte */
+}

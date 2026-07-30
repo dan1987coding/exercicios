@@ -1,0 +1,21 @@
+.container {
+    display: flex;          /* Ativa o Flexbox no elemento pai */
+    flex-wrap: wrap;        /* Permite que os itens quebrem a linha */
+    background-color: #1e75ff; /* Cor azul de fundo da imagem */
+    padding: 15px;          /* Espaçamento interno do container */
+    gap: 10px;              /* Espaçamento entre os itens */
+  }
+  
+  .item {
+    background-color: #f0f0f0; /* Cor cinza claro dos itens */
+    color: #000;            /* Cor do texto (números) */
+    flex: 1 0 18%;          /* Ajusta a largura para caberem 5 itens por linha */
+    min-width: 100px;       /* Garante que eles quebrem em telas menores */
+    height: 60px;           /* Altura dos blocos */
+    display: flex;          /* Ativa flex nos filhos para centralizar o texto */
+    justify-content: center;/* Centraliza o número horizontalmente */
+    align-items: center;    /* Centraliza o número verticalmente */
+    font-size: 24px;        /* Tamanho da fonte */
+    font-family: sans-serif;
+  }
+  
